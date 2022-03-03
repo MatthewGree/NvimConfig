@@ -35,9 +35,14 @@ packer.init {
 }
 
 return packer.startup(function(use)
+	-- packer
 	use "wbthomason/packer.nvim"
+	-- basic plugins
 	use "nvim-lua/popup.nvim"
 	use "nvim-lua/plenary.nvim"
+
+	-- colorscheme
+	use "folke/tokyonight.nvim"
 
 	if PACKER_BOOSTRAP then
 		require("packer").sync()
