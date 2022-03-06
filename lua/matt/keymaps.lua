@@ -15,6 +15,7 @@ keymap("n", "<C-l>", ":wincmd l<CR>", opts)
 keymap("n", "<C-h>", ":wincmd h<CR>", opts)
 keymap("n", "<C-j>", ":wincmd j<CR>", opts)
 keymap("n", "<C-k>", ":wincmd k<CR>", opts)
+keymap("n", "<C-d>", ":close <CR>", opts)
 
 -- Explorer
 keymap("n", "<leader>e", ":Lex 30<cr>", opts)
