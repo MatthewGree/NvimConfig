@@ -18,7 +18,7 @@ keymap("n", "<C-k>", ":wincmd k<CR>", opts)
 keymap("n", "<C-d>", ":close <CR>", opts)
 
 -- Explorer
-keymap("n", "<leader>e", ":Lex 30<cr>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 -- Resizing windows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)

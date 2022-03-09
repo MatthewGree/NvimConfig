@@ -40,9 +40,13 @@ return packer.startup(function(use)
 	-- basic plugins
 	use "nvim-lua/popup.nvim"
 	use "nvim-lua/plenary.nvim"
+	use "kyazdani42/nvim-web-devicons"
+	use "windwp/nvim-autopairs"
+	use "kyazdani42/nvim-tree.lua"
 
 	-- colorscheme
 	use "folke/tokyonight.nvim"
+	use "dracula/vim"
 
 	-- cmp plugins
 	use "hrsh7th/nvim-cmp"
@@ -59,6 +63,12 @@ return packer.startup(function(use)
 	-- LSP
 	use "neovim/nvim-lspconfig"
 	use "williamboman/nvim-lsp-installer"
+
+	-- Treesitter
+	use {
+		"nvim-treesitter/nvim-treesitter",
+		run = ":TSUpdate",
+	}
 
 	if PACKER_BOOSTRAP then
 		require("packer").sync()
