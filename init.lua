@@ -8,4 +8,5 @@ require "matt.cmp"
 require "matt.lsp"
 require "matt.treesitter"
 require "matt.telescope"
+require "matt.toggleterm"
 

@@ -73,6 +73,9 @@ return packer.startup(function(use)
 	-- Telescope
 	use "nvim-telescope/telescope.nvim"
 
+	-- ToggleTerm
+	use "akinsho/toggleterm.nvim"
+
 	if PACKER_BOOSTRAP then
 		require("packer").sync()
 	end
