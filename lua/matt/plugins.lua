@@ -70,6 +70,9 @@ return packer.startup(function(use)
 		run = ":TSUpdate",
 	}
 
+	-- Telescope
+	use "nvim-telescope/telescope.nvim"
+
 	if PACKER_BOOSTRAP then
 		require("packer").sync()
 	end

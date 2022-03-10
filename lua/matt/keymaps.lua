@@ -30,6 +30,10 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
+-- Telescope
+keymap("n", "<leader>tf", ":Telescope find_files<CR>", opts)
+keymap("n", "<leader>tg", ":Telescope live_grep<CR>", opts)
+
 -- Insert --
 -- jk instead of ESC
 keymap("i", "jk", "<ESC>", opts)
@@ -45,4 +49,5 @@ keymap("v", "<A-k>", ":m .-2<CR>==gv", opts)
 
 -- Don't override yank register when pasting over
 keymap("v", "p", '"_dP', opts)
+
 

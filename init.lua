@@ -7,4 +7,5 @@ require "matt.nvim-tree"
 require "matt.cmp"
 require "matt.lsp"
 require "matt.treesitter"
+require "matt.telescope"
 
