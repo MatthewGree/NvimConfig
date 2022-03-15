@@ -76,6 +76,9 @@ return packer.startup(function(use)
 	-- ToggleTerm
 	use "akinsho/toggleterm.nvim"
 
+	-- Neogit
+	use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
+
 	if PACKER_BOOSTRAP then
 		require("packer").sync()
 	end

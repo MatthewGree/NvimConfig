@@ -34,6 +34,9 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 keymap("n", "<leader>tf", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>tg", ":Telescope live_grep<CR>", opts)
 
+-- Neogit
+keymap("n", "<leader>gs", ":Neogit<CR>", opts)
+
 -- Insert --
 -- jk instead of ESC
 keymap("i", "jk", "<ESC>", opts)
