@@ -15,3 +15,5 @@ vim.opt.number = true
 vim.opt.signcolumn = "yes"
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
+vim.opt.expandtab = true
+
